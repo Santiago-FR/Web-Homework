@@ -8,34 +8,67 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="style.css">
-    <title>Latitude-Comparison</title>
+    <title>Latitude</title>
   </head>
  
   <body>
-    <nav class="navbar">
-      <span class="navbar-brand mb-0 h1" id="brand"><a id="lathome" href="index.html">Lattitude</a></span>
-      <ul class="nav justify-content-end">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Max Temperature</a>
-            <a class="dropdown-item" href="#">Humidity</a>
-            <a class="dropdown-item" href="#">Cloudiness</a>
-            <a class="dropdown-item" href="#">Wind Speed</a>
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar">
+            <span class="navbar-brand mb-0 h1" id="brand"><a class="nounderline" id="lathome" href="index.html">Lattitude</a></span>      
+            <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+<!-- Main -->
+  <div class="d-inline-block p-3"id="box7">
+    <h4>Comparision</h4>
+      <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h6>Max Temperature</h6>
+            <a href="maxtemp.html"><img class="img-fluid" src="/Resources/assets/images/Fig1.png" alt="Fig1">
+            </a>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-      </ul>
-    </nav>
-    <footer class="page-footer" id="footer">
+          <div class="col-sm-6">
+            <h6>Humidity</h6>
+            <a href="humidity.html"><img class="img-fluid" src="/Resources/assets/images/Fig2.png" alt="Fig2">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h6>Cloudiness</h6>
+            <a href="cloudiness.html"><img class="img-fluid" src="/Resources/assets/images/Fig3.png" alt="Fig3">
+            </a>  
+          </div>
+            <div class="col-sm-6">
+            <h6>Wind Speed</h6>
+            <a href="windspeed.html"><img class="img-fluid" src="/Resources/assets/images/Fig4.png" alt="Fig4">
+            </a>
+          </div>
+        </div>
+  </div>
+<!-- Footer -->
+   <footer class="page-footer fixed-bottom" id="footer" >
       <div id="topper"><br>
       </div>
-      <div class="footer-copyright text-center py-3">
+      <div class="footer-copyright text-center py-3 ">
         © Copyright Coding Bootcamp 2017
       </div>
     </footer>

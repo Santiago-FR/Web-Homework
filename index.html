@@ -12,32 +12,79 @@
   </head>
  
   <body>
-    <nav class="navbar">
-        <span class="navbar-brand mb-0 h1" id="brand"><a class="nounderline" id="lathome" href="index.html">Lattitude</a></span>      <ul class="nav justify-content-end">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
-            <a class="dropdown-item" href="#">Humidity</a>
-            <a class="dropdown-item" href="#">Cloudiness</a>
-            <a class="dropdown-item" href="#">Wind Speed</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="comparison.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="container-fluid">
-      <h1>Responsive Columns</h1>
-      <div class="row">
-        <div class="col-sm-6" style="background-color:lavender;"><img src="Resources/assets/images/Fig1.png" class="card-img-top" alt="some chart"></div>
-        <div class="col-sm-6" style="background-color:lavenderblush;">.col-sm-6</div>
-      </div>
+    <!-- Navbar -->
+    <div>
+        <nav class="navbar">
+            <span class="navbar-brand mb-0 h1" id="brand"><a class="nounderline" id="lathome" href="index.html">Lattitude</a></span>      
+            <ul class="nav justify-content-end">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </nav>
     </div>
+<!-- Main -->
+<div class="d-inline-block p-3"id="box0">
+  <div class="d-inline-block p-3" id="box1">
+    <h2>Summary: Latitude vs. X</h2>
+    <br>
+    <span><img class="img-fluid w-50" id="f1" src="/Resources/assets/images/Fig1.png" alt="Fig1" align="left">
+    <p>
+      Maximum Temperatures ten to be much higher closer to the equator (0 degrees latitude) cities below the equator are warmer that those above. this is mostly due to the tilt of the earth this time of the year. There are extremely high temperatures recorded with a large quantity of cities with temperatures ranging from 290 to 310 degrees Fahrenheit.
+    </p>
+    <p>
+      Humidity levels are evenly represented across all latitudes; most cities experience humidity of 60% or higher.
+    </p>
+    <p>
+      There is no strong relationship between latitude and cloudiness. However, a strong band of cities sits at 0, 20, 80, and 100% cloudiness. There are smaller bands of cities at 20 and 40% cloudiness. 
+    </p>
+    <p>
+        There is no strong relationship between latitude and wind speed. However, in northern hemispheres there are 3 cities exceeding 12.5 mph winds. It is also important to mention that most cities do not exceed 5 mph winds.
+    </p>
+    </span>
+  </div>
+    <div class="d-inline-block p-3"id="box2">
+      <h4>Visualizations</h4>
+        <br>
+          <div class="row">
+            <div class="col-sm-6">
+              <h6>Max Temperature</h6>
+              <a href="maxtemp.html"><img class="img-fluid" src="/Resources/assets/images/Fig1.png" alt="Fig1">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <h6>Humidity</h6>
+              <a href="humidity.html"><img class="img-fluid" src="/Resources/assets/images/Fig2.png" alt="Fig2">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <h6>Cloudiness</h6>
+              <a href="cloudiness.html"><img class="img-fluid" src="/Resources/assets/images/Fig3.png" alt="Fig3">
+              </a>  
+            </div>
+              <div class="col-sm-6">
+              <h6>Wind Speed</h6>
+              <a href="windspeed.html"><img class="img-fluid" src="/Resources/assets/images/Fig4.png" alt="Fig4">
+              </a>
+            </div>
+          </div>
+    </div>
+  </div>
+<!-- Footer -->
    <footer class="page-footer fixed-bottom" id="footer" >
       <div id="topper"><br>
       </div>

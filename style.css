@@ -1,3 +1,5 @@
+
+}
 /* anchor nav */
 a {
     color: black;
@@ -5,10 +7,15 @@ a {
 /* unvisited link */
 a:link {
     text-decoration:none;
+    color: black;
 }
 /* visited link */
 a:visited {
     text-decoration:none;
+    color: black;
+}
+#lathome{
+    color: white;
 }
 /* mouse over link */
 a:hover {
@@ -18,26 +25,114 @@ a:hover {
 a:active {
     text-decoration:none;
 }
-/* brnad */
+/* navbar */
+.navbar{
+
+    border: 1px solid #73AD21;
+    background-color: white;
+}
+/* brand */
 .nounderline {
     text-decoration: none;
+    color: white;
   }
 #brand {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   color: white;
    background-color: lightseagreen;
    font-size: 24px;
    font-weight:bold;
    padding: 10px;   
 }
+
 /* footer style */
 #topper {
     background-color:lightseagreen;
     font-size: 5px;
+    justify-content: center;
 }
 #footer {
     background-color: gray;
     font-size: 11px;
     text-align: center;
     color: white;
+    justify-content: center;
+}
+/* body boxes */
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+#box0{
+    max-width: auto;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding: auto;
+    flex: 1;   
+}
+#box1{
+    float: left;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 0px;
+    max-width: 450px;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;
+    flex: 2;     
+}
+#box2{
+    float: left;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 50px;
+    max-width: 350px;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;
+    vertical-align: top;
+    flex: 1;
+}
+
+#box3{
+    margin-top: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;     
+}
+#box4{
+    margin-top: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;     
+}
+#box5{
+    margin-top: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;     
+}
+#box6{
+    margin-top: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;     
+}
+#box7{
+    margin-top: 35px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: auto;
+    border: 1px solid #73AD21;
+    background-color: white;     
+}
+h1,h2,h3,h4,h5,h6{
+    color: lightseagreen;
 }
